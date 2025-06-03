@@ -1,4 +1,4 @@
-import { CarIcon, EyeIcon, VideoIcon } from "lucide-react";
+import { CarIcon, EyeIcon } from "lucide-react";
 import { Section } from "./Section";
 import { Title } from "./Title";
 import { Button } from "./Button";
