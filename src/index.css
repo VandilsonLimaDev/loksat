@@ -39,6 +39,10 @@
     @apply py-12
   }
 
+  .home__banner {
+    @apply bg-blue-900 flex justify-center items-center
+  }
+
   .list {
     @apply list-disc leading-5
   }
@@ -51,7 +55,7 @@
     @apply w-80
   }
   .header__frase-img {
-    @apply h-28 hidden md:flex
+    @apply h-24 hidden md:flex
   }
   .header__mapa-img {
     @apply h-36 pl-3 md:pl-0

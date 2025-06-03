@@ -12,10 +12,10 @@ export const Header = () => {
                     </NavLink>
                 </h1>
                 <div className="header__frase">
-                    <img className="header__frase-img" src="/rastreamento_telemetria.svg" alt="" />
+                    <img className="header__frase-img" src="/rastreamento_telemetria_videomonitoramento.svg" alt="Frase: Rastreamento, Telemetria e Videomonitoramento" />
                 </div>
                 <div className="header__mapa">
-                    <img className="header__mapa-img" src="/mapa.svg" alt="" />
+                    <img className="header__mapa-img" src="/mapa.svg" alt="mapa ilustrativo com o símbolo da marca" />
                 </div>
             </div>
             <Menu />
