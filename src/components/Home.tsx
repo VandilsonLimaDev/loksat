@@ -1,12 +1,11 @@
+import { Banner } from "./Banner"
 import { Section } from "./Section"
 import { Title } from "./Title"
 
 export const Home = () => {
     return(
         <main>
-            <section className="home__banner">
-                <img src="/banner.jpg" alt="" />
-            </section>
+            <Banner />
             <Section>
                 <Title>
                     Porque é importante?
