@@ -1,3 +1,8 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+
 @import "tailwindcss";
 
 @layer base {
@@ -94,6 +99,10 @@
   }
   .footer__container {
     @apply text-white/80 text-base flex-col md:flex-row py-4 text-center md:text-left gap-3
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-white;
   }
   
 }
