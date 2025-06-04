@@ -13,22 +13,22 @@ export function Contatos () {
                 <div className="flex flex-col md:flex-row gap-5 md:gap-10">
                     <div className="flex-3/12">
                         <h3 className="mt-0">Fale Conosco:</h3>
-                        <p className="flex gap-2 items-center mt-8">
+                        <a href="mailto:contato@loksat.com.br" className="flex mb-2 gap-2 items-center mt-8">
                             <MailIcon className="text-teal-300" />
                             contato@loksat.com.br
-                        </p>
-                        <p className="flex gap-2 items-center">
+                        </a>
+                        <a href="mailto:comercial@loksat.com.br" className="flex mb-2 gap-2 items-center">
                             <HandshakeIcon className="text-teal-300" />
                             comercial@loksat.com.br
-                        </p>
-                        <p className="flex gap-2 items-center">
+                        </a>
+                        <a href="tel:7930850617" className="flex mb-2 gap-2 items-center">
                             <PhoneCallIcon className="text-teal-300" />
                             (79)3085-0617
-                        </p>
-                        <p className="flex gap-2 items-center">
+                        </a>
+                        <a href="tel:79999536073" className="flex mb-2 gap-2 items-center">
                             <PhoneIncomingIcon className="text-teal-300" />
                             (79)99953-6073
-                        </p>
+                        </a>
                         <br/><br/>
                         <p className="flex gap-2 items-start">
                             <LocateFixedIcon className="text-teal-300" />
