@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import { register } from "swiper/element";
 import { Swiper, SwiperSlide } from 'swiper/react';  
 
@@ -13,10 +13,15 @@ export const Banner = () => {
 
             <Swiper
                 className="home__banner"
-                modules={[Navigation, Pagination, Scrollbar]}
+                modules={[Autoplay, Navigation, Pagination, Scrollbar]}
                 navigation
                 pagination={{ clickable: true}}
                 scrollbar={{ draggable: true}}
+                autoplay={{
+                    delay:4000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
             >
                 <SwiperSlide>
                     <img className="mx-auto" src="/banner.jpg" alt="" />
