@@ -18,7 +18,7 @@ export function Servicos () {
                         </div>
                         <div className="services__box-content">
                             <h3 className="mt-0 mb-4 flex">Rastreamento Veicular Padrão</h3>
-                            <p>Monitoramento em tempo real, histórico de rotas, alertas de ignição e cerca eletrônica. Segurança, controle e praticidade para sua frota ou veículo particular.</p>
+                            <p>Monitoramento em tempo real, histórico de rotas, alertas de ignição e cerca eletrônica.</p>
                             <br/>
                             <Button url="https://sis.getrak.com/loksat"> 
                                 ACESSE

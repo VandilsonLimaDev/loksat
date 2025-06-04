@@ -128,7 +128,7 @@
     @apply bg-blue-900
   }
   .footer__container {
-    @apply text-white/80 text-base flex-col md:flex-row py-4 text-left gap-3 pr-30 md:pr-12 items-start
+    @apply text-white/80 text-base flex-col md:flex-row py-4 text-center justify-center lg:justify-between md:text-left gap-1 md:gap-3 items-start
   }
 
   .swiper-pagination-bullet-active {

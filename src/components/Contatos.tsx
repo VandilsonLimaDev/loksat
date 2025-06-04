@@ -1,4 +1,4 @@
-import { HandshakeIcon, LocateFixedIcon, MailIcon, PhoneCallIcon, PhoneIncomingIcon } from "lucide-react";
+import { HandshakeIcon, LocateFixedIcon, MailIcon, PhoneCallIcon, SmartphoneIcon } from "lucide-react";
 import { Section } from "./Section";
 import { Title } from "./Title";
 
@@ -26,7 +26,7 @@ export function Contatos () {
                             (79)3085-0617
                         </a>
                         <a href="tel:79999536073" className="flex mb-2 gap-2 items-center">
-                            <PhoneIncomingIcon className="text-teal-300" />
+                            <SmartphoneIcon className="text-teal-300" />
                             (79)99953-6073
                         </a>
                         <br/><br/>
