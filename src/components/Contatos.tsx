@@ -39,10 +39,10 @@ export function Contatos () {
                                 <li>CEP: 49020-270</li>
                             </ul>
                         </p>
-
                     </div>
-                    <div className="flex-9/12">
-                        <iframe className="w-full h-full min-h-96 rounded-2xl" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7834.982914206574!2d-37.051645!3d-10.9262!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDU1JzM0LjMiUyAzN8KwMDMnMDUuOSJX!5e0!3m2!1spt-BR!2sus!4v1748969237545!5m2!1spt-BR!2sus" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <div className="flex-9/12 relative">
+                        <iframe className="w-full h-full min-h-96 rounded-2xl z-20 relative" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7834.982914206574!2d-37.051645!3d-10.9262!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDU1JzM0LjMiUyAzN8KwMDMnMDUuOSJX!5e0!3m2!1spt-BR!2sus!4v1748969237545!5m2!1spt-BR!2sus" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <div className="w-full bg-gray-100 rounded-2xl h-full min-h-96 absolute top-0 right-0 animate-pulse flex justify-center items-center z-0 text-zinc-300">CARREGANDO...</div>
                     </div>
                 </div>
             </Section>
